@@ -1,34 +1,23 @@
-name: Update Profile Results
+# 👑 البروفايل الملكي
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+## ⭐ النجوم
+(هنا السكربت هيضيف محتوى stars.md)
 
-jobs:
-  merge-results:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+---
 
-      - name: Merge two test files into README
-        run: |
-          FILE1=$(cat tests1.md)
-          FILE2=$(cat tests2.md)
-          ALL="$FILE1\n$FILE2"
+## 🏆 الكؤوس
+(هنا السكربت هيضيف محتوى trophies.md)
 
-          awk '/## ⭐ النجوم/{print;print ALL;next}1' ALL="$ALL" README.md > tmp1.md
-          awk '/## 🏆 الكؤوس/{print;print ALL;next}1' ALL="$ALL" tmp1.md > tmp2.md
-          awk '/## 🎖️ الشهادات/{print;print ALL;next}1' ALL="$ALL" tmp2.md > README_new.md
+---
 
-          mv README_new.md README.md
+## 🎖️ الشهادات
+(هنا السكربت هيضيف محتوى certs.md)
 
-      - name: Commit changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "Update README with latest tests"
-          git push
+---
+
+## 📊 نتيجة العمليات
+- عدد النجوم:  
+- عدد الكؤوس:  
+- عدد الشهادات:  
+- الوقت الكلي المستغرق:  
+- نسبة النجاح الكلية:

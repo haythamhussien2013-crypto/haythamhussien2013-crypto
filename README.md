@@ -11,8 +11,8 @@
 </p>
 
 <p align="right">
-  <img src="./logo.png" width="40"/>
+  <img src="./logo.png" width="50"/>
 </p>
 
-# 🏆 DGP SYSTEMS  
+# 🏆 DGP SYSTEMS
 ### Official Profile & Performance Dossier | 2026

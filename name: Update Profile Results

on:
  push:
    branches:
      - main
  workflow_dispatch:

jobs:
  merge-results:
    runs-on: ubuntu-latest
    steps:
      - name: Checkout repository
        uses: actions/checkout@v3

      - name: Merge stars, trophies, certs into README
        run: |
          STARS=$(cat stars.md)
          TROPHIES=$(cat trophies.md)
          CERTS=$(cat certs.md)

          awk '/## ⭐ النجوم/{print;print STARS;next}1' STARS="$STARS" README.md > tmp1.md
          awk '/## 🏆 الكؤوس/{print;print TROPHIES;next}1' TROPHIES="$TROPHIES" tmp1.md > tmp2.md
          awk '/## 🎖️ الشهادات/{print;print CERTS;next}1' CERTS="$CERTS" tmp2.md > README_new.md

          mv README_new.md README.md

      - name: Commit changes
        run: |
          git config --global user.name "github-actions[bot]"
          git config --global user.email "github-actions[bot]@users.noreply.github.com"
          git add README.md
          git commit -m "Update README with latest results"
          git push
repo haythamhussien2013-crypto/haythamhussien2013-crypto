@@ -1,0 +1,34 @@
+name: Update Profile Results
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  merge-results:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Merge stars, trophies, certs into README
+        run: |
+          STARS=$(cat stars.md)
+          TROPHIES=$(cat trophies.md)
+          CERTS=$(cat certs.md)
+
+          awk '/## ⭐ النجوم/{print;print STARS;next}1' STARS="$STARS" README.md > tmp1.md
+          awk '/## 🏆 الكؤوس/{print;print TROPHIES;next}1' TROPHIES="$TROPHIES" tmp1.md > tmp2.md
+          awk '/## 🎖️ الشهادات/{print;print CERTS;next}1' CERTS="$CERTS" tmp2.md > README_new.md
+
+          mv README_new.md README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update README with latest results"
+          git push

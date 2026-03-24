@@ -6,23 +6,24 @@ def generate_readme():
 
     # توقيت العملية
     run_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-    # قراءة حالة العملية من متغيرات GitHub Actions
-    workflow_name = os.getenv("GITHUB_WORKFLOW", "Unknown Workflow")
-    run_id = os.getenv("GITHUB_RUN_ID", "N/A")
-    run_number = os.getenv("GITHUB_RUN_NUMBER", "N/A")
-    job_status = os.getenv("JOB_STATUS", "success")  # لازم يتحدد من الـ job نفسه
-
-    # نسبة النجاح الحقيقية
+    job_status = os.getenv("JOB_STATUS", "success")
     success_rate = "100%" if job_status.lower() == "success" else "0%"
 
-    content += f"**⏱️ وقت آخر تحديث:** {run_time}\n"
-    content += f"**⚙️ العملية:** {workflow_name} (Run #{run_number}, ID: {run_id})\n"
+    content += f"**⏰ وقت آخر تحديث:** {run_time}\n"
     content += f"**✅ نسبة نجاح العملية:** {success_rate}\n\n"
+
+    # قسم الأوسمة والشهادات
+    trophies_count = 5   # عدد الكؤوس
+    badges_count = 12    # عدد الشارات
+    stars_count = 3      # عدد الألقاب/النجوم
+
+    content += "## 🥇 الأوسمة والشهادات\n"
+    content += f"- 🏆 الكؤوس: {trophies_count}\n"
+    content += f"- 🎖️ الشارات: {badges_count}\n"
+    content += f"- ⭐ الألقاب: {stars_count}\n\n"
 
     # قسم ملفات الشهادات داخل المستودع
     content += "## 📂 ملفات الشهادات داخل المستودع\n"
-
     files_list = []
     for root, dirs, files in os.walk("."):
         for file in files:
@@ -31,9 +32,7 @@ def generate_readme():
                 timestamp = os.path.getmtime(path)
                 files_list.append((file, path, timestamp))
 
-    # ترتيب الملفات حسب التاريخ (الأحدث أولًا)
     files_list.sort(key=lambda x: x[2], reverse=True)
-
     for file, path, timestamp in files_list:
         date_str = datetime.datetime.fromtimestamp(timestamp).strftime("%Y-%m-%d %H:%M:%S")
         github_link = f"https://github.com/USERNAME/REPO_NAME/blob/main/{path}"
@@ -63,7 +62,6 @@ def generate_readme():
     for org in ai_quantum:
         content += f"- [{org['name']}]({org['link']})\n"
 
-    # كتابة الملف README
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(content)
 

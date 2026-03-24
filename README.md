@@ -1,10 +1,18 @@
 <p align="center">
-  <img src="./background.png" width="100%"/>
+  <img src="https://img.shields.io/badge/⭐-★★★★★-yellow"/>
+  <img src="https://img.shields.io/badge/🏆-Champion-gold"/>
+  <img src="https://img.shields.io/badge/Performance-Elite-brightgreen"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/⭐-★★★★★-yellow"/>
+  <img src="https://img.shields.io/badge/🏆-Top%20Tier-orange"/>
+  <img src="https://img.shields.io/badge/Score-100%25-success"/>
 </p>
 
 <p align="right">
-  <img src="./logo.png" width="50"/>
+  <img src="./logo.png" width="40"/>
 </p>
 
-# 🏆 DGP SYSTEMS
+# 🏆 DGP SYSTEMS  
 ### Official Profile & Performance Dossier | 2026

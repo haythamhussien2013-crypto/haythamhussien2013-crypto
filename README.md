@@ -59,16 +59,6 @@ All system certifications are based on internal testing, simulation environments
 
 
 
-
-import json
-
-def generate_badges(report):
-    badges = []
-
-    # 🧠 Intelligence
-    if report["accuracy"] >= 95:
-        badges.append("🧠 Intelligence Verified")
-
     # ⚔️ Security
     if report.get("high_risk_block", 100) == 100:
         badges.append("⚔️ Security Verified")

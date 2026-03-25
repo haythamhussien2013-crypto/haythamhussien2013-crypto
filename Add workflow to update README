@@ -1,19 +1,22 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/⭐-★★★★★-yellow"/>
-  <img src="https://img.shields.io/badge/🏆-Champion-gold"/>
-  <img src="https://img.shields.io/badge/Performance-Elite-brightgreen"/>
-</p>
+# تقييماتي الأكاديمية
 
-<p align="center">
-  <img src="https://img.shields.io/badge/⭐-★★★★★-yellow"/>
-  <img src="https://img.shields.io/badge/🏆-Top%20Tier-orange"/>
-  <img src="https://img.shields.io/badge/Score-100%25-success"/>
-</p>
+هذا الملف يعرض التقديرات (الدرجات) في المواد المختلفة.
 
-<p align="right">
-  <img src="./logo.png" width="50"/>
-</p>
+---
 
-# 🏆 DGP SYSTEMS
-### Official Profile & Performance Dossier | 2026
-mkdir -p ~/Quantum_Certifications && cd ~/Quantum_Certifications
+## جدول التقديرات
+
+| المادة | الفصل الدراسي | الدرجة | التقدير |
+|--------|---------------|--------|---------|
+| الرياضيات | أول | 92 | ممتاز |
+| الفيزياء | أول | 85 | جيد جداً |
+| الكيمياء | أول | 78 | جيد |
+| اللغة العربية | أول | 88 | جيد جداً |
+| اللغة الإنجليزية | أول | 90 | ممتاز |
+
+---
+
+### ملاحظات
+
+- التقديرات مبنية على مقياس 100.
+- التقديرات تُحدّث كل فصل دراسي.

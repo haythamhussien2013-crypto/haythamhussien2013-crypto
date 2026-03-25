@@ -1,24 +1,37 @@
-import sys
+# أهلاً، أنا YOUR_NAME 👋
 
-class Tee:
-    def __init__(self, *files):
-        self.files = files
+مُهتمّ بالتعلّم وبناء حاجات بسيطة ومفيدة بالبرمجة، وبطوّر نفسي خطوة خطوة.
 
-    def write(self, data):
-        for f in self.files:
-            f.write(data)
+---
 
-    def flush(self):
-        for f in self.files:
-            f.flush()
+## 🏆 الكؤوس
 
-repo_name = "my-repo"
-output_file = f"{repo_name}_results.txt"
+[![trophy](https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=onedark&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
 
-log = open(output_file, "w", encoding="utf-8")
-sys.stdout = Tee(sys.stdout, log)
+---
 
-print("دي نتيجة 1")
-print("دي نتيجة 2")
+## 📊 الإحصائيات
 
-log.close()
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight)
+
+---
+
+## 💡 عني
+
+- بحب أتعلم برمجة وأطبّق على مشاريع صغيرة.
+- شغلي هنا خليط بين تجارب، تعلم، ومحاولات حقيقية أقدّم بيها حاجة كويسة.
+- لسه في بداية الطريق، بس ماشي واحدة واحدة.
+
+---
+
+## 📂 شوية شغل من اللي فات
+
+- هحط هنا لينكات لمشروعاتي لما أكمّل شغل عليها.
+- ممكن تضيف: سكربتات، مشاريع بسيطة، أو أي حاجة فخوره/فخورة بيها.
+
+---
+
+## 📫 تقدر تتواصل معايا
+
+اكتب هنا إيميلك أو لينك لأي وسيلة تواصل تحبها.

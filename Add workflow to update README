@@ -1,22 +1,24 @@
-# تقييماتي الأكاديمية
+import sys
 
-هذا الملف يعرض التقديرات (الدرجات) في المواد المختلفة.
+class Tee:
+    def __init__(self, *files):
+        self.files = files
 
----
+    def write(self, data):
+        for f in self.files:
+            f.write(data)
 
-## جدول التقديرات
+    def flush(self):
+        for f in self.files:
+            f.flush()
 
-| المادة | الفصل الدراسي | الدرجة | التقدير |
-|--------|---------------|--------|---------|
-| الرياضيات | أول | 92 | ممتاز |
-| الفيزياء | أول | 85 | جيد جداً |
-| الكيمياء | أول | 78 | جيد |
-| اللغة العربية | أول | 88 | جيد جداً |
-| اللغة الإنجليزية | أول | 90 | ممتاز |
+repo_name = "my-repo"
+output_file = f"{repo_name}_results.txt"
 
----
+log = open(output_file, "w", encoding="utf-8")
+sys.stdout = Tee(sys.stdout, log)
 
-### ملاحظات
+print("دي نتيجة 1")
+print("دي نتيجة 2")
 
-- التقديرات مبنية على مقياس 100.
-- التقديرات تُحدّث كل فصل دراسي.
+log.close()

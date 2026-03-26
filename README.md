@@ -1,8 +1,8 @@
 import os
 from datetime import datetime, timedelta
 
-# اسم الملف الرئيسي
-main_file = "dgp globel care"
+# اسم الملف الرئيسي (مكتوب صح بالشرطة)
+main_file = "dgp-global-care"
 
 # وقت البداية والنهاية
 start_time = datetime(2026, 3, 26, 15, 0)
@@ -52,4 +52,3 @@ with open(os.path.join(results_folder, "README.md"), "w", encoding="utf-8") as f
     f.write(results_content)
 
 print(f"✅ تم استخراج النتائج من '{main_file}' وحفظها في 'results/README.md'")
-

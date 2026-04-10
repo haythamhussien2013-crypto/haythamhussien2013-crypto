@@ -52,19 +52,4 @@ decision = decide_action(attack)
 print("=== DGP SYSTEM v2 ===")
 print("Attack:", attack)
 print("Risk Level:", risk)
-print("Decision:", decision)
-
----
-
-📈 Performance
-
-- ✔️ Real-time threat detection
-- ✔️ Intelligent decision engine
-- ✔️ Fast execution (< 1s)
-- ✔️ Scalable architecture
-
----
-
-🔥 Status
-
-🚀 Active AI Cybersecurity Core
+print("Decision:", deciگe

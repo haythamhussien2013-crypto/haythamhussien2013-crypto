@@ -1,81 +1,46 @@
-# DGP Global Core (Legacy Repository)
+# haythamhussien2013-crypto — Public Repository
 
-![Status](https://img.shields.io/badge/Status-Archived-grey)
-![Version](https://img.shields.io/badge/Version-Legacy-blue)
-![Language](https://img.shields.io/badge/Language-Mixed-lightgrey)
-![Maintenance](https://img.shields.io/badge/Maintenance-No%20Longer%20Maintained-red)
-
----
-
-## 📌 Overview
-
-This repository represents the **original development phase** of the DGP Global Core project.  
-It contains early experiments, drafts, and foundational ideas that were created before the transition  
-to the new architecture and the clean start of the **Rody Engine**.
-
-The repository is now **archived** and kept for historical and reference purposes only.
+<!-- Badges -->
+![Stars](https://img.shields.io/github/stars/haythamhussien2013-crypto/haythamhussien2013-crypto?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/haythamhussien2013-crypto/haythamhussien2013-crypto?style=for-the-badge)
+![Watchers](https://img.shields.io/github/watchers/haythamhussien2013-crypto/haythamhussien2013-crypto?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/haythamhussien2013-crypto/haythamhussien2013-crypto?style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/haythamhussien2013-crypto/haythamhussien2013-crypto?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/haythamhussien2013-crypto/haythamhussien2013-crypto?style=for-the-badge)
+![License](https://img.shields.io/github/license/haythamhussien2013-crypto/haythamhussien2013-crypto?style=for-the-badge)
 
 ---
 
-## 🧩 What This Repository Contains
+## 📌 نظرة عامة
 
-- Early drafts and prototypes  
-- Initial architecture concepts  
-- Experimental logic and processing flows  
-- Legacy code snapshots  
-- Documentation fragments  
-- Development notes and early-stage ideas  
+هذا المستودع يمثل النسخة العامة من المشروع،  
+ويحتوي على ملفات مشفرة بالكامل باستثناء النتائج النهائية.
 
-This content reflects the **first generation** of the system before the redesign.
+تم تصميمه ليكون واجهة عرض نظيفة واحترافية  
+ومناسبة للربط مع منصات مثل **LinkedIn**.
 
 ---
 
-## 🚫 Maintenance Status
+## 🚀 المميزات
 
-This repository is **no longer maintained**.  
-No new commits, updates, or fixes will be added here.
-
-All active development has moved to:
-
-👉 **Rody (New Clean Repository)**  
-*(Link will be added once the new repo is created)*
+- شارات GitHub تعمل تلقائيًا  
+- عرض النجوم والفوركس والمشاهدات  
+- تحديث مباشر لأي تغيير في الريبو  
+- مناسب للعرض على LinkedIn و GitHub Pages  
+- محتوى مشفر بالكامل باستثناء النتائج
 
 ---
 
-## 🧭 Why This Repo Is Archived
+## 📜 الحالة
 
-- To preserve the original work  
-- To keep a clean historical timeline  
-- To avoid mixing legacy code with the new architecture  
-- To ensure Rody starts with a clean, conflict‑free Git history  
-- To maintain transparency and traceability of the evolution of the system  
+المستودع **Public** ومتاح للعرض،  
+ويتم تحديثه تلقائيًا من GitHub.
 
 ---
 
-## 🆕 New Direction: Rody Engine
+## 🏁 ملاحظة
 
-The next phase of development is happening in a **fresh, clean repository**  
-with a redesigned architecture and a new structured workflow.
+تأكد أن اسم الريبو في الشارات مطابق تمامًا لاسم الريبو في GitHub  
+وهو هنا:
 
-Rody represents:
-
-- Clean codebase  
-- New architecture  
-- No legacy conflicts  
-- Independent Git history  
-- Modernized structure  
-- Clear development roadmap  
-
----
-
-## 📜 License
-
-This repository is archived and preserved for reference.  
-All rights reserved to the original author.
-
----
-
-## 🏁 Final Note
-
-This repo stands as a **historical snapshot** of the early journey.  
-The real evolution continues in the new Rody project.
+**haythamhussien2013-crypto**
